@@ -1,8 +1,6 @@
 body
 {
   text-align: center;
-  
-  background: #cccccc;
 }
 
 h1
@@ -19,9 +17,31 @@ em strong
 #Imagem-Barbearia
 {width: 50%}
 
+.imagembeneficios
+{width:35%}
+
+.principal
+{
+  background:#cccccc;
+  padding:30px;
+}
+
+.Beneficios
+{
+  background:#ffffff
+}
+
 .itens
 {text-align: left;
-font-style: italic;}
+font-style: italic;
+font-size: 17px;
+}
 
-#Barbear
-{width: 35%}
+ul
+{
+  display:inline-block;
+  vertical-align:top;
+  width:20%;
+  margin-right:15%;
+  padding:20px;
+}
