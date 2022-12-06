@@ -1,51 +1,38 @@
 body
 {
-  text-align: center;
+text-align: center
 }
 
-h1
-{font-size: 25px}
-
-p
-{font-size: 20px}
+.titulo-principal
+{text-align: left;
+padding-left: 20px}
 
 em strong
 {
-  color: darkred
+color: darkred
 }
 
-#Imagem-Barbearia
-{width: 50%}
-
-.imagembeneficios
-{width:35%}
+#Barbearia
+{ width: 100%}
 
 .principal
-{
-  background:#cccccc;
-  padding:30px;
-}
+{background:#CCCCCC;
+padding:30px}
 
 .Beneficios
-{
-  background:#ffffff
-}
+{background:#FFFFFF}
+
+ul
+{ display:inline-block;
+vertical-align:top;
+width:20%;
+margin-right:15%;
+padding:20px}
 
 .itens
 {text-align: left;
 font-style: italic;
-font-size: 17px;
 }
 
-ul
-{
-  display:inline-block;
-  vertical-align:top;
-  width:20%;
-  margin-right:15%;
-  padding:20px;
-}
-
-.titulo-principal
-{text-align:left;
-padding-left:20px;}
+.imagembeneficios
+{width:50%}
